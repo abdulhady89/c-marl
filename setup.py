@@ -7,17 +7,17 @@ import setuptools
 
 def get_version() -> str:
     # https://packaging.python.org/guides/single-sourcing-package-version/
-    init = open(os.path.join("onpolicy", "__init__.py"), "r").read().split()
+    init = open(os.path.join("cpolicy", "__init__.py"), "r").read().split()
     return init[init.index("__version__") + 2][1:-1]
 
 setup(
-    name="onpolicy",  # Replace with your own username
+    name="cpolicy",  # Replace with your own username
     version=get_version(),
-    description="on-policy algorithms of marlbenchmark",
+    description="c-policy algorithms of marlbenchmark",
     long_description=open("README.md", encoding="utf8").read(),
     long_description_content_type="text/markdown",
-    author="zoeyuchao",
-    author_email="zoeyuchao@gmail.com",
+    author="xxx",
+    author_email="xxx@xxx.com",
     packages=setuptools.find_packages(),
     classifiers=[
         "Development Status :: 3 - Alpha",

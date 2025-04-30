@@ -1,4 +1,4 @@
-# MAPPO
+# C-MARL Under developed based on MAPPO
 
 ## New Update！！！We support SMAC V2 now～
 
@@ -51,7 +51,7 @@ pip install torch==1.5.1+cu101 torchvision==0.6.1+cu101 -f https://download.pyto
 
 ```
 # install on-policy package
-cd on-policy
+cd c-marl
 pip install -e .
 ```
 
@@ -105,7 +105,7 @@ Please see the [football](https://github.com/google-research/football/blob/maste
 ## 3.Train
 Here we use train_mpe.sh as an example:
 ```
-cd onpolicy/scripts
+cd cpolicy/scripts
 chmod +x ./train_mpe.sh
 ./train_mpe.sh
 ```
